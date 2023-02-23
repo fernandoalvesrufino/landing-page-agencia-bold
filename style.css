@@ -66,8 +66,65 @@ section.main {
 
 .mockup h1 {
   font-size: 50px;
+  font-weight: normal;
 }
 
 .mockup img {
   max-width: 100%;
+}
+
+section.marcas {
+  padding: 100px 0;
+}
+
+section.marcas img {
+  width: calc(100% / 5);
+}
+
+section.porque-nos {
+  padding: 40px 0;
+  background-color: #FBFCFE;
+}
+
+section.porque-nos > .center > h2 {
+  font-size: 64px;
+  text-align: center;
+  width: 100%;
+}
+
+section.porque-nos > .center > p {
+  font-size: 14px;
+  color: #CCC;
+  text-align: center;
+  width: 100%;
+}
+
+section.porque-nos > .center {
+  max-width: 1280px;
+}
+
+.diferenciais {
+  display: flex; 
+  gap: 10px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.box-diferenciais {
+  box-shadow: 0 20px 40px #2426721C;
+  width: 31%;
+  padding: 10px 40px; 
+  border-radius: 10px;
+}
+
+.box-diferenciais h3 {
+  font-size: 20px;
+  margin: 20px 0;
+  color: black;
+}
+
+.box-diferenciais p {
+  color: #7692AC;
+  font-size: 13px;
+  margin-bottom: 20px;
 }
