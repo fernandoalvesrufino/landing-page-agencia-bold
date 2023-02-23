@@ -16,13 +16,14 @@
 section.main {
   background-image: url('./images/bg-home.svg');
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   min-height: 700px;
   padding: 20px 0 80px;
 }
 
 .menu {
   display: flex;
+  width: 100%;
 }
 
 .logo-menu {
@@ -31,4 +32,42 @@ section.main {
 
 .itens-menu {
   width: 50%;
+}
+
+.itens-menu a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.itens-menu a:hover {
+  border-bottom: 2px solid #FFDD33;
+}
+
+.itens-menu a.contact-btn {
+  background-color: #0F3FD3;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.itens-menu a.contact-btn:hover {
+  border: 0;
+}
+
+.mockup {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.mockup h1 {
+  font-size: 50px;
+}
+
+.mockup img {
+  max-width: 100%;
 }
